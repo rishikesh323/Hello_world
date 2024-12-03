@@ -1,3 +1,4 @@
+yum install httpd* -y
 echo "HELLO WORLD" >>  /var/www/html/index.html 
 systemctl enable httpd
 systemctl start httpd
